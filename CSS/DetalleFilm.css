@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Caveat:wght@400..700&family=Grenze+Gotisch:wght@100..900&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Caveat:wght@400..700&family=Grenze+Gotisch:wght@100..900&family=Shadows+Into+Light&family=Whisper&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Bebas Neue", cursive;
+    background-color: #09080d;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.informacion {
+    background: url(/Imagenes/Avengers.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4));
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        min-height: 30vh;
+        display: flex;
+        align-items: center;       
+}
+
+.about-container {
+    padding: 50px 0;
+    display: flex;
+    background: #30383a;
+}
+
+h2{
+    font-size: 70px;
+    color: #fefcfb;
+    margin-bottom: 15px;
+}
+
+.about-txt p {
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-bottom: 35px;
+    margin-right: 110px;
+    font-family: "Shadows Into Light", cursive;
+    text-align: center;
+}
+
+.about-txt h2 {
+    font-family: "Shadows Into Light", cursive;
+}
+
+.information {
+    display: flex;
+    justify-content:  space-between;
+    padding: 50px 0;
+}
+
+.information-1 {
+
+    display: flex;
+    align-items: center;
+}
+
+.information-1 h3 {
+    font-size:  70px;
+    color: #fefcfb;
+}
+
+.information-1 p{
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-left: 15px;
+}
+
+.reparto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reparto-1 {
+   background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding: 25px;
+}
+
+.reparto-2 {
+    background-image: linear-gradient(
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5));
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     padding: 25px;
+ }
+
+ .reparto-3 {
+    background-image: linear-gradient(
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5));
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     padding: 25px;
+ }
+
+ .reparto-4 {
+    background-image: linear-gradient(
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5));
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     padding: 25px;
+ }
+
+ .reparto-5 {
+    background-image: linear-gradient(
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5));
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     padding: 25px;
+ }
+
+ .txt {
+    position: relative;
+ }
+
+ .txt h3 {
+    color: #fefcfb;
+    font-size: 35px;
+ }
+
+ .txt p {
+    font-size:  16 px;
+    color: #e0e0e0;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    rotate: 270deg;
+ }
+
+ .footer {
+    padding: 100px 0 0 0 ;
+ }
+
+ .footer-content {
+    display: flex;
+ }
+
+ .footer-form {
+   width: 50%;
+ }
+
+ .footer-txt {
+    width: 50%;
+ }
+
+ .footer-txt h3{
+    color: #fefcfb;
+    font-size: 35px;
+    margin: 0 100px 20 px 0;
+ }
+
+ .footer-txt p {
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #e0e0e0;
+ }
+
+ .footer-1{
+    padding: 50px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #e0e0e0;
+ }

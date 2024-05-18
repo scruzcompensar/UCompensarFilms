@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Caveat:wght@400..700&family=Grenze+Gotisch:wght@100..900&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Caveat:wght@400..700&family=Grenze+Gotisch:wght@100..900&family=Shadows+Into+Light&family=Whisper&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Bebas Neue", cursive;
+    background-color: #09080d;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)),
+        url(https://tenor.com/es-419/view/pruebacinepo-polito-popcorn-soda-gif-15014771.gif);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 30vh;
+        display: flex;
+        align-items: center;       
+}
+.searchbar {
+    width: 100%;
+    height: 105px;
+    background: #1c1c1c;
+    position: relative;
+    padding: 25px 20px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.searchbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1280px;
+    width: 90%;
+    height: 55px;
+    background: #353535;
+    margin: 0 auto;
+    border-radius: 40px;
+    position: relative;
+    color: #fff;
+}
+
+.searchbar-input {
+    font-family: Abel, sans-serif;
+    font-size: 38px;
+    position: absolute;
+    border: 0;
+    text-align: center;
+    background: transparent;
+    height: 40px;
+    color: #fff;
+    flex: 1;
+}
+
+.botones-filtro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1280px;
+    width: 40%;
+    height: 55px;
+    margin: 0 auto;
+    border-radius: 40px;
+    position: relative;
+}
+
+.botones-filtro .btn {
+    border: 1px solid #343a40;
+    color: #dee2e6;
+}
+
+.fa-search {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    color: #fff;
+}
+
+.about-container {
+    padding: 50px 0;
+    display: flex;
+}
+
+
+h2{
+    font-size: 70px;
+    color: #fefcfb;
+    margin-bottom: 15px;
+}
+
+.servicios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicio-1 {
+   background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url(https://media1.tenor.com/m/FI6HujH3QmEAAAAC/scooter-laughing.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding: 25px;
+}
+
+.servicio-2 {
+    background-image: linear-gradient(
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)),
+     url(https://assets-global.website-files.com/643e15786c3c1ff52f75bd0d/64b5aac8182708dd278b7d35_Rider%20App.webp);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     padding: 25px;
+ }
+
+ .servicio-3 {
+    background-image: linear-gradient(
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)),
+     url(https://www.portafolio.co/files/article_multimedia/files/crop/uploads/2019/04/08/5cab749d02da2.r_1554740415096.0-198-800-800.jpeg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     padding: 25px;
+ }
+
+ .servicio-4 {
+    background-image: linear-gradient(
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)),
+     url(https://imagenes.eltiempo.com/files/image_1200_600/uploads/2019/03/05/5c7ee8be40ac6.jpeg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     padding: 25px;
+ }
+
+ .servicio-5 {
+    background-image: linear-gradient(
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)),
+     url(https://media1.tenor.com/m/QVHb8bChaWUAAAAC/call-center.gif);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     padding: 25px;
+ }
+
+ .footer {
+    padding: 100px 0 0 0 ;
+ }
+
+ .footer-content {
+    display: flex;
+ }
+
+ .footer-form {
+   width: 50%;
+ }
+
+ .footer-txt {
+    width: 50%;
+ }
+
+ 
+ .footer-txt h3{
+    color: #fefcfb;
+    font-size: 35px;
+    margin: 0 100px 20 px 0;
+ }
+
+ .footer-txt p {
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #e0e0e0;
+ }
+
+ .footer-1{
+    padding: 50px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #e0e0e0;
+ }
