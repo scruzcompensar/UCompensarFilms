@@ -25,7 +25,7 @@ p {
     align-items: center;
 }
 .informacion {
-    background: url(/Imagenes/Avengers.png);
+    background: url(../Imagenes/Avengers.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
